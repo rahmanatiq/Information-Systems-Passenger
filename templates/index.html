@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Information System</title>
+
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <header>
+        <h1>Passenger Information System</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- Form section to add new passengers -->
+        <div class="card form-card">
+            <h2>Add New Passenger</h2>
+
+            <!-- Input fields for passenger details -->
+            <div class="form-grid">
+                <input type="text" id="name" placeholder="Full Name">
+                <input type="number" id="age" placeholder="Age">
+                <input type="text" id="destination" placeholder="Destination">
+                <input type="text" id="ticket" placeholder="Ticket Number">
+            </div>
+
+            <!-- Button to submit passenger data -->
+            <button class="add-btn" onclick="addPassenger()">Add Passenger</button>
+        </div>
+
+        <!-- Section to show all passengers in a table -->
+        <div class="card table-card">
+            <h2>All Passengers</h2>
+
+            <table id="passengerTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Destination</th>
+                        <th>Ticket No.</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <!-- Table body will be filled by JavaScript -->
+                <tbody id="passengerList"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Passenger Information System</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

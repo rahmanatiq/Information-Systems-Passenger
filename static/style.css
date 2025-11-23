@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #eef3f8;
+    overflow-x: hidden;   /* Fix unwanted horizontal scroll */
 }
 
 /* Header area */
@@ -32,6 +33,8 @@ header h1 {
     margin-bottom: 35px;
     border-radius: 14px;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    box-sizing: border-box; /* Ensures proper resizing */
 }
 
 /* Form layout using vertical grid */
@@ -77,15 +80,14 @@ input:focus {
 }
 
 /* Wrapper so table scrolls on smaller devices */
-.table-wrapper {
-    width: 100%;
+.table-card {
     overflow-x: auto;
 }
 
 /* Table styling */
 table {
     width: 100%;
-    min-width: 650px; /* Prevents table from shrinking too much */
+    min-width: 500px;   /* Reduced so mobile view fits */
     border-collapse: collapse;
     margin-top: 15px;
 }
@@ -136,7 +138,9 @@ footer {
     background: #2c3e50;
     color: white;
     margin-top: 40px;
+    width: 100%;
 }
+
 
 /* ---------------------- */
 /* Responsive adjustments */
@@ -178,6 +182,11 @@ footer {
 
     header h1 {
         font-size: 20px;
+    }
+
+    .container {
+        width: 98%;
+        margin: 10px auto;
     }
 
     .card {

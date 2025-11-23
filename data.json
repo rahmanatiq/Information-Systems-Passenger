@@ -5,5 +5,12 @@
         "destination": "USA",
         "ticket": "16749",
         "id": 1763639945
+    },
+    {
+        "name": "Test 3",
+        "age": "27",
+        "destination": "Canada",
+        "ticket": "6987256",
+        "id": 1763721807
     }
 ]

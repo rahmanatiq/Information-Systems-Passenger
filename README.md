@@ -116,6 +116,8 @@ The project was built using concepts and guidance from:
 
 2. MDN Web Docs (JavaScript & HTML)
 
-3. W3Schools (CSS styling ideas)
+3. W3Schools (CSS styling ideas)https://www.w3schools.com/css/css_icons.asp
+
+4. Json    https://www.w3schools.com/python/python_json.asp
 
 All code is written manually by the student.

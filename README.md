@@ -1,4 +1,6 @@
 ## Passenger Information System
+## Name of the organization: Pakistan Civil Aviation Authority (PCAA)  
+Location: https://maps.app.goo.gl/8SaELuGsFbZq3nPq6
 
 A simple Passenger Information System built using Flask (Python) for the backend and HTML, CSS, and JavaScript for the frontend.
 The system allows users to add, view, edit, and delete passenger information.
@@ -108,16 +110,15 @@ Passenger_system/
      └── script.js
 
 
-## References & Inspirations
+## References
 
 The project was built using concepts and guidance from:
 
-1. Flask Documentation
-
+1. Flask intro https://www.youtube.com/watch?v=5aYpkLfkgRE
 2. MDN Web Docs (JavaScript & HTML)
 
 3. W3Schools (CSS styling ideas)https://www.w3schools.com/css/css_icons.asp
 
 4. Json    https://www.w3schools.com/python/python_json.asp
 
-All code is written manually by the student.
+

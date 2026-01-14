@@ -120,5 +120,13 @@ The project was built using concepts and guidance from:
 3. W3Schools (CSS styling ideas)https://www.w3schools.com/css/css_icons.asp
 
 4. Json    https://www.w3schools.com/python/python_json.asp
+5.	Anon., 2025. https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_form_basic&stacked=h. [Online] 
+Available at: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_form_basic&stacked=h 
+[Accessed 05 07 2025]. 
+6.	https://chatgpt.com/share/68765e3e-48d8-8008-bfba-dfc5e27b605e  (For database conection)
+	
+7.	https://www.youtube.com/watch?v=3vsC05rxZ8c      (for database Installations)
+
+8.	https://chatgpt.com/share/68774a37-8860-8008-bada-4d3d634bd9a3    (use to fix error login page as default when click on local deployment)
 
 
